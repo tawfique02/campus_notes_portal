@@ -1,0 +1,12 @@
+# Database and sensitive configs
+config/db.php
+database/credentials.php
+
+# System & IDE logs/caches
+logs/
+*.log
+.vscode/
+.DS_Store
+
+# OS generated files
+Thumbs.db

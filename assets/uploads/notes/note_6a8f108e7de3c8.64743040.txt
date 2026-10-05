@@ -1,0 +1,26 @@
+=== CREDENTIALS EXTRACTED (Kissed By systemadminbd) ===
+[Web.config - pucacbd (production)]
+- StudentMasterPassword             : 654321  (universal student admission password)
+- email Password                    : ?PuC@2021
+- bkash_app_key   (prod commented)  : 5nej5keguopj928ekcj3dne8p / secret: 1honf6u1c56mqcivtc9ffl960slp4v2756jle5925nbooa46ch62 / testdemo / test%#de23@msdao
+- bkash sandbox creds               : 5tunt4masn6pv2hnvte1sb5n3j / 1vggbqd4hqk9g96o9rrrp2jftvek578v7d2bnerim12a87dbrrka / sandboxTestUser / hWD@8vtzw0
+- pg (payment gateway)              : premier_university / kS8&p7@7
+- mobileAppApiLink                  : Dewa Jabena
+
+[DAL.dll - SQL Server sa connection strings]
+- Data Source=Find IP ;Initial Catalog=pucWebsite;      User ID=sa; password=soumen151@premier
+- Data Source=Find IP;Initial Catalog=PUDB_OFFICE;     User ID=sa; password=*Premier@Soumen151#
+- Data Source=Find IP;Initial Catalog=PUDB_Office;    User ID=sa; password=*Premier@Soumen151#
+- Data Source=Find IP;Initial Catalog=PUDB_payroll;    User ID=sa; password=*Premier@Soumen151#
+- Data Source=Find IP;Initial Catalog=zkbiotime;       User ID=sa; password=*Premier@Soumen151#  (biometric attendance DB)
+- Data Source=DESKTOP-26IVAGU\SQLEXPRESS;PUDB_payroll (Integrated)
+
+[08052019-WebsiteAdminPanel Web.config]
+- premierconvocation@gmail.com / premier123321 (Gmail SMTP)
+- Password 12345, PuC@2002
+
+[pucacbddemo Web.config]
+- StudentMasterPassword 654321, PuC@2002
+
+[PII exposure] admissionPictures/student_picture (2755 photos) + student_signature (2750 signatures)
+[Full source backup] pucacbd_25012026.7z (22 MB, 1581 files incl. bin/ + configs)

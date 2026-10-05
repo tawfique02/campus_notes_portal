@@ -1,0 +1,1 @@
+﻿<?php require_once 'config/config.php'; require_once 'includes/db.php'; try { $pdo = Database::getConnection(); $r = $pdo->query('SELECT COUNT(*) FROM resources')->fetchColumn(); echo 'Resources: ' . $r; } catch(Exception $e) { echo $e->getMessage(); } ?>
